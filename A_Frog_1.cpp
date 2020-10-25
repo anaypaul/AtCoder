@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#include<stdint.h>
 using namespace std;
 int main(){
 	int n;
@@ -12,7 +11,7 @@ int main(){
 		cin>>x;
 		v.push_back(x);
 	}
-	int result = INT_MAX;
+	int result = 9999999;
 	int cost_p = 0;
 	int cost_pp = abs(v[1]-v[0]);
 	result = cost_pp;
